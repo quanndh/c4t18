@@ -5,5 +5,7 @@ print("c4t18")
 # sum = var + var1 + string
 # print(sum)
 
-so = int(input("Nhap vao 1 so: "))
-print(so)
+first_name = (input("Nhap vao first name: "))
+last_name = (input("Nhập vao last name: "))
+name = first_name + " " + last_name
+print("My name:", name )
